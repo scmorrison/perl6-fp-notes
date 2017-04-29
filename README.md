@@ -130,7 +130,7 @@ If you're looking for other projects to contribute to please see the [Perl 6 Mos
   ```perl6
   my Map $list = (name => "Camelia", email => "camelia@perl6.tld").Map
   Map.new((:email("camelia\@perl6.tld"),:name("Camelia")))
-  $list<name> ==> say();
+  say $list<name>;
   Camelia
 
   # Try modifying $list<name>
