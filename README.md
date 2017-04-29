@@ -5,8 +5,6 @@
 * __[Prelude](#prelude)__
     * [Immutability](#immutability)
 * __[Getting Involved](#getting-involved)__
-    * [Contributing](#contributing)
-    * [Spread the Word](#spread-the-word)
 * __[Copying](#copying)__
     * [License](#license)
     * [Attribution](#attribution)
@@ -17,11 +15,6 @@
 
 **Note**: This is not to be considered the **one_true_way_to_write_perl_6** in any paradigm.
 
-When you submit a PR and it gets merged, you will be automatically added as a collaborator, but if you wouldn't like to be added, please mention it in your submission.
-
-The larger Perl 6 community is very approachable and does a great job of answering questions and helping those new to Perl 6.
-
-If you're looking for other projects to contribute to please see the [Perl 6 Most Wanted Modules][Perl 6 Most Wanted].
 
 ### Immutability
 
@@ -144,6 +137,12 @@ If you're looking for other projects to contribute to please see the [Perl 6 Mos
     in block <unit> at <unknown file> line 1
   ```
 
+## Getting Involved
+
+When you submit a PR and it gets merged, you will be automatically added as a collaborator, but if you wouldn't like to be added, please mention it in your submission.
+
+The larger Perl 6 community is very approachable and does a great job of answering questions and helping those new to Perl 6. If you're looking for other projects to contribute to please see the [Perl 6 Most Wanted Modules][Perl 6 Most Wanted].
+
 ## Copying
 
 ### License
@@ -152,6 +151,9 @@ If you're looking for other projects to contribute to please see the [Perl 6 Mos
 This work is licensed under a
 [Creative Commons Attribution 3.0 Unported License][license]
 
+### Attribution
+
+https://github.com/scmorrison/perl6-fp-notes/graphs/contributors
 
 <!-- Links -->
 [FP Notes on Perl 6 (this repo)]: https://github.com/scmorrison/perl6-fp-notes
