@@ -3,6 +3,7 @@
 ### Table of Contents
 
 * __[Prelude](#prelude)__
+* __[Notes](#notes)__
     * [Immutability](#immutability)
 * __[Getting Involved](#getting-involved)__
 * __[Copying](#copying)__
@@ -15,6 +16,7 @@
 
 **Note**: This is not to be considered the **one_true_way_to_write_perl_6** in any paradigm.
 
+## Notes
 
 ### Immutability
 
