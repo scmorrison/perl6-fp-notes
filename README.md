@@ -48,7 +48,6 @@
 |**Blob**       | An undifferentiated mass of ints, an immutable Buf           |
 |**Instant**    | A point on the continuous atomic timeline                    |
 |**Duration**   | The difference between two Instants                          |
-|**HardRoutine**| A routine that is committed to not changing                  |
 
 * Use the bind `:=` infix for scalars, which defaults to 'ro':
 
@@ -58,6 +57,14 @@
   
   Cannot assign to an immutable value
     in block <unit> at <unknown file> line 1
+  ```
+  
+  Keep in mind, you can still re-bind using `:=`:
+
+  ```perl6
+  my $name := "Camelia";
+  $name := "Elaine";
+  Elaine
   ```
 
 * Lists without containers are `ro` immutable, use Lists instead of Arrays (@) for listy things:
